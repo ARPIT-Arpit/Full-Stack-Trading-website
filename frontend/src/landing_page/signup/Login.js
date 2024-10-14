@@ -27,7 +27,7 @@ const handleLogin = async (e) => {
         return handleError('email and password are required')
     }
     try {
-        const url = `http://localhost:3002/auth/login`;
+        const url = `https://full-stack-trading-website.onrender.com/auth/login`;
         const response = await fetch(url, {
             method: "POST",
             headers: {

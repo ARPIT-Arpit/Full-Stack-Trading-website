@@ -8,7 +8,7 @@ const Positions = () => {
 
   useEffect( () => {
 
-    axios.get("http://localhost:3002/allPositions")
+    axios.get("https://full-stack-trading-website.onrender.com/allPositions")
     .then( (res) => {
 
       console.log(res.data);

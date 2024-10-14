@@ -10,7 +10,7 @@ const Holdings = () => {
 
   useEffect( () => {
 
-    axios.get("http://localhost:3002/allHoldings")
+    axios.get("https://full-stack-trading-website.onrender.com/allHoldings")
     .then( (res) => {
 
       console.log(res.data);

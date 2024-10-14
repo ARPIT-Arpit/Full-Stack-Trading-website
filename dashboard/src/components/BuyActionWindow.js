@@ -16,7 +16,7 @@ const BuyActionWindow = ({ uid }) => {
     
     try {
 
-      const response = await axios.post("http://localhost:3002/newOrder", {
+      const response = await axios.post("https://full-stack-trading-website.onrender.com/newOrder", {
         name: uid,
         qty: stockQuantity,
         price: stockPrice,
