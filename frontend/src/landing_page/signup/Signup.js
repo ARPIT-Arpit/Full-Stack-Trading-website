@@ -41,7 +41,7 @@ function Signup() {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = 'http://localhost:3000/';
+          window.location.href = 'https://full-stack-trading-website-frontend.onrender.com/';
         }, 1000);
       } else if (error) {
         const details = error?.details[0]?.message;

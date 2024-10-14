@@ -19,7 +19,7 @@ function Menu() {
     localStorage.removeItem('token');
     localStorage.removeItem('loggedInUser');
     setTimeout(() => {
-      window.location.href = 'http://localhost:3001/login';
+      window.location.href = 'https://full-stack-trading-website-frontend.onrender.com/login';
     }, 1000)
   };
 
